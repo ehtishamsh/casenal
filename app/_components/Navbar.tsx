@@ -54,7 +54,7 @@ function Navbar() {
           <span className="">
             <a
               href="/explore"
-              className="bg-maintheme-600  px-4 py-2 rounded-full hover:bg-maintheme-700 transition-all duration-300"
+              className="bg-maintheme-500  px-4 py-2 rounded-full hover:bg-maintheme-700 transition-all duration-300"
             >
               Explore Tools
             </a>
