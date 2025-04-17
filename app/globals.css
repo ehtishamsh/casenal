@@ -47,8 +47,10 @@
   --color-maintheme-500: #1a8af0;
   --color-maintheme-600: #1a6bb3;
   --color-maintheme-700: #0f5499;
-  --color-maintheme-800: #10467d;
-  --color-maintheme-900: #123c69;
+  --color-maintheme-800: #0a3d5c;
+  --color-maintheme-900: #0e2f4a;
+  --color-maintheme-950: #08233a;
+  --color-maintheme-1000: #010d16;
 }
 
 :root {
