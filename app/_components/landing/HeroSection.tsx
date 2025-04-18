@@ -33,8 +33,8 @@ function HeroSection() {
         </h1>
 
         <p className="text-sm md:text-base lg:text-lg text-gray-300 mb-8">
-          Access 20+ powerful and free tools to boost productivity, whether
-          you're writing content, fixing grammar, converting text cases, or
+          Access 20+ powerful and free tools to boost productivity, whether{" "}
+          {"you're"} writing content, fixing grammar, converting text cases, or
           building stunning gradients and code snippets.
         </p>
 
