@@ -3,6 +3,7 @@ import {
   Layers,
   LucideRocket,
   MousePointer,
+  Search,
   Settings,
   Zap,
 } from "lucide-react";
@@ -77,10 +78,56 @@ function HeroSection() {
               How It Works
             </span>
           </Link>
-          <div className="absolute -bottom-8 left-1/2 animate-bounce">
+          <div className="absolute -bottom-10 left-1/2 animate-bounce">
             <MousePointer className="h-5 w-5 text-maintheme-700" />
           </div>
         </div>
+      </div>
+      <div className="mt-20  max-w-5xl w-full flex items-center justify-center mx-auto">
+        <img src="/devtools.png" alt="Casenal Hero" className="w-full" />
+      </div>
+      <div className="max-w-3xl mt-20 w-full mx-auto">
+        <form className="flex items-center flex-wrap justify-center border border-gray-700/80 rounded-lg">
+          <div className="px-2 w-full relative ">
+            <span className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400 dark:text-slate-500 ">
+              <Search className="h-5 w-5" />
+            </span>
+            <input
+              type="text"
+              placeholder="Search for tools..."
+              className="bg-white pl-10 py-2 text-base w-full border-slate-200 dark:bg-slate-950"
+            />
+          </div>
+          <div className="px-2 w-full relative  bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 ">
+            <span className="text-xs text-slate-700 dark:text-slate-200 flex items-center gap-2 py-2">
+              Popular:
+              <Link
+                href="#"
+                className="text-maintheme-500 text-xs hover:underline"
+              >
+                Case Converter
+              </Link>
+              <Link
+                href="#"
+                className="text-maintheme-500 text-xs hover:underline"
+              >
+                HTML Encoder
+              </Link>
+              <Link
+                href="#"
+                className="text-maintheme-500 text-xs hover:underline"
+              >
+                Base64
+              </Link>
+              <Link
+                href="#"
+                className="text-maintheme-500 text-xs hover:underline"
+              >
+                JSON Formatter
+              </Link>
+            </span>
+          </div>
+        </form>
       </div>
     </main>
   );
